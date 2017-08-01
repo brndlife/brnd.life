@@ -3,6 +3,8 @@
 ---
 
 $brnd-lime: #80FF55;
+$brnd-lime-deep: #6ADB4B;
+$brnd-lime-light: rgba(128,255,85,.5);
 $brnd-grey: #666666;
 
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700');
@@ -17,6 +19,37 @@ $bold: 700;
 html, body, h1, h2, h3, h4, h5, h6{
   font-family: $zilla;
   color: $brnd-grey;
+}
+
+body{
+  font-size: 18px;
+}
+
+.post-list{
+  h2{
+    margin-bottom: 0rem;
+    a{
+      color: $brnd-grey;
+    }
+  }
+}
+
+.page-content{
+  .post{
+     a{
+      background-color: $brnd-lime-light;
+      color: $brnd-grey;
+    } 
+  } 
+}
+
+
+.post-link{
+  font-size: 30px;
+}
+
+.post-meta{
+  font-size: 18px;
 }
 
 // Header

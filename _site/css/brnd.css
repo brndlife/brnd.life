@@ -3,6 +3,24 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Zilla Slab", serif;
   color: #666666; }
 
+body {
+  font-size: 18px; }
+
+.post-list h2 {
+  margin-bottom: 0rem; }
+  .post-list h2 a {
+    color: #666666; }
+
+.page-content .post a {
+  background-color: rgba(128, 255, 85, 0.5);
+  color: #666666; }
+
+.post-link {
+  font-size: 30px; }
+
+.post-meta {
+  font-size: 18px; }
+
 .logo {
   height: 120px; }
 
