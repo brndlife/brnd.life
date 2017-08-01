@@ -1,0 +1,94 @@
+---
+
+---
+
+$brnd-lime: #80FF55;
+$brnd-grey: #666666;
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700');
+
+$zilla: 'Zilla Slab', serif;
+
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+html, body, h1, h2, h3, h4, h5, h6{
+  font-family: $zilla;
+  color: $brnd-grey;
+}
+
+// Footer
+footer{
+  background-color: #f2f2f2;
+  color: #b5b5b5;
+}
+
+.footerLeft{
+  line-height: 45px;
+}
+
+.footerRight{
+  line-height: 45px;
+}
+
+div.medium-4.columns.footerRight{
+  text-align:right;
+}
+
+.footerCenter{
+  text-align: center;
+  line-height: 45px;
+}
+
+.rehanLogo{
+  height: 18px;
+}
+.twitterLogo{
+  height: 30px;
+}
+
+.site-footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.noSelect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+/*measurments pulled from foundation css file*/
+
+/*for mobile friendly styling*/
+@media screen and (max-width: 40em) {
+
+  header{
+    background-size: 400%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  footerLeft, div.medium-4.columns.footerRight, footer{
+    text-align: center;
+  }
+
+  .footerCenter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+}
+
+/*for tablet friendly styling*/
+@media screen and (max-width: 64em) {
+
+}
+/* ************************************** */
