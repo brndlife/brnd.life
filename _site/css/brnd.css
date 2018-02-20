@@ -52,28 +52,28 @@ footer {
   background-color: #80FF55;
   color: white; }
 
-.footerLogoContainer {
+.footer-logo-container {
   margin-top: 30px;
   margin-bottom: 40px; }
 
-.footerLeft {
+.footer-left {
   line-height: 45px; }
 
-.footerRight {
+.footer-right {
   line-height: 45px; }
 
-div.medium-4.columns.footerRight {
+div.medium-4.columns.footer-right {
   text-align: right; }
 
-.instagramLogo {
+.instagram-logo {
   height: 35px; }
-  .instagramLogo:hover {
+  .instagram-logo:hover {
     opacity: 0.8; }
 
-.twitterLogo {
+.twitter-logo {
   height: 30px;
   margin-right: 10px; }
-  .twitterLogo:hover {
+  .twitter-logo:hover {
     opacity: 0.8; }
 
 .copyright {
@@ -99,7 +99,7 @@ div.medium-4.columns.footerRight {
   header {
     margin-bottom: 10px; }
 
-  footerLeft, div.medium-4.columns.footerRight, footer {
+  footerLeft, div.medium-4.columns.footer-right, footer {
     text-align: center; } }
 /*for tablet friendly styling*/
 /* ************************************** */
