@@ -31,7 +31,10 @@ blurb: "MISSION STATEMENT Lorem ipsum dolor sit amet, consectetur adipiscing eli
       <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">
           <div class="thumbnail-container">
             <img class="thumbnail-image" src="img/thumbnails/{{ work.thumbnail | prepend: site.baseurl }}">
-            <span class="thumbnail-text">{{ work.tile-name }}</span>
+            <div class="text-container">
+              <span class="thumbnail-project">{{ work.title }}</span>
+              <span class="thumbnail-text">{{ work.tagline }}</span>
+            </div>
           </div>
       </a>
   </div>
