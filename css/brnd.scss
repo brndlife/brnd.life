@@ -7,9 +7,9 @@ $brnd-lime-deep: #6ADB4B;
 $brnd-lime-light: rgba(128,255,85,.5);
 $brnd-grey: #666666;
 
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 
-$zilla: 'Zilla Slab', serif;
+$poppins: 'Poppins', sans-serif;
 
 $regular: 400;
 $medium: 500;
@@ -17,7 +17,7 @@ $semi-bold: 600;
 $bold: 700;
 
 html, body, h1, h2, h3, h4, h5, h6{
-  font-family: $zilla;
+  font-family: $poppins;
   color: $brnd-grey;
 }
 
@@ -86,8 +86,8 @@ body{
 
 // Footer
 footer{
-  background-color: #f2f2f2;
-  color: #b5b5b5;
+  background-color: $brnd-lime;
+  color: white;
 }
 
 .footerLeft{
