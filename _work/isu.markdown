@@ -1,7 +1,7 @@
 ---
 layout: post
 client: International Student Union
-title: Building Great Startups
+title: Knitting People Together
 thumbnail: isu.png
 
 ---
