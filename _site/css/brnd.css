@@ -53,13 +53,16 @@ p {
   line-height: 120px;
   font-size: 32px;
   font-weight: 700;
-  text-align: right; }
+  text-align: right;
+  color: white; }
   .nav-bar a {
     color: white;
     text-decoration: none; }
     .nav-bar a:hover {
       text-decoration: underline;
       color: white; }
+    .nav-bar a:visited {
+      color: inherit; }
   .nav-bar .nav-item {
     margin-left: 10px;
     margin-right: 10px; }
@@ -73,6 +76,8 @@ a {
     background-color: #80FF55;
     text-decoration: none;
     color: #666666; }
+  a:visited {
+    color: inherit; }
   a p {
     margin-bottom: 0; }
 
