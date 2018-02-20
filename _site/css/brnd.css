@@ -71,11 +71,15 @@ a {
   display: inline-block;
   text-decoration: underline;
   color: #666666;
-  padding: 5px 5px 5px 5px; }
+  padding: 5px 5px 5px 5px;
+  -moz-transition: background-color .3s ease-in;
+  -o-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  transition: background-color .3s ease-in; }
   a:hover {
     background-color: #80FF55;
     text-decoration: none;
-    color: #666666; }
+    color: inherit; }
   a:visited {
     color: inherit; }
   a p {
