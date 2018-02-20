@@ -48,6 +48,10 @@ footer {
   background-color: #80FF55;
   color: white; }
 
+.footerLogoContainer {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
 .footerLeft {
   line-height: 45px; }
 
@@ -57,15 +61,19 @@ footer {
 div.medium-4.columns.footerRight {
   text-align: right; }
 
-.footerCenter {
-  text-align: center;
-  line-height: 45px; }
-
-.rehanLogo {
-  height: 18px; }
+.instagramLogo {
+  height: 35px; }
+  .instagramLogo:hover {
+    opacity: 0.8; }
 
 .twitterLogo {
-  height: 30px; }
+  height: 30px;
+  margin-right: 10px; }
+  .twitterLogo:hover {
+    opacity: 0.8; }
+
+.copyright {
+  font-weight: 500; }
 
 .site-footer {
   padding-top: 20px;
@@ -88,10 +96,6 @@ div.medium-4.columns.footerRight {
     margin-bottom: 10px; }
 
   footerLeft, div.medium-4.columns.footerRight, footer {
-    text-align: center; }
-
-  .footerCenter {
-    padding-top: 20px;
-    padding-bottom: 20px; } }
+    text-align: center; } }
 /*for tablet friendly styling*/
 /* ************************************** */
