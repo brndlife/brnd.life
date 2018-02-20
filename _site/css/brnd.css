@@ -1,10 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
 html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Zilla Slab", serif;
+  font-family: "Poppins", sans-serif;
   color: #666666; }
 
 body {
   font-size: 18px; }
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 50px; }
+
+p {
+  font-size: 30px;
+  line-height: 40px; }
 
 .post-list h2 {
   margin-bottom: 0rem; }
@@ -25,51 +34,150 @@ body {
   height: 120px; }
 
 .site-header {
+  background-color: #80FF55;
   border-top: none;
   border-bottom: none;
   position: none;
   min-height: none;
-  margin-top: 30px; }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px; }
+  .site-header .global {
+    margin-bottom: 150px; }
 
-.site-title {
-  float: none; }
+.header-buffer h1 {
+  margin-bottom: 30px; }
 
 .nav-bar {
   float: none;
   line-height: 120px;
-  font-size: 30px; }
+  font-size: 32px;
+  font-weight: 700;
+  text-align: right;
+  color: white; }
   .nav-bar a {
-    color: #666666; }
+    color: white;
+    text-decoration: none; }
+    .nav-bar a:hover {
+      text-decoration: underline;
+      color: white; }
+    .nav-bar a:visited {
+      color: inherit; }
   .nav-bar .nav-item {
-    margin-left: 5px;
-    margin-right: 5px; }
+    margin-left: 10px;
+    margin-right: 10px; }
+
+a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #666666;
+  padding: 5px 5px 5px 5px;
+  -moz-transition: background-color .2s ease-in;
+  -o-transition: background-color .2s ease-in;
+  -webkit-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in; }
+  a:hover {
+    background-color: #80FF55;
+    text-decoration: none;
+    color: inherit; }
+  a:visited {
+    color: inherit; }
+  a p {
+    margin-bottom: 0; }
+
+.service-container {
+  margin-bottom: 10px; }
+
+.category {
+  margin-bottom: 100px; }
+
+.image-container {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.thumbnail-container {
+  position: relative;
+  display: block;
+  background-color: black;
+  opacity: 1;
+  overflow: hidden; }
+
+.thumbnail-container:hover .thumbnail-text {
+  opacity: 1; }
+
+.thumbnail-container:hover .thumbnail-image {
+  opacity: 0.5;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.thumbnail-container .thumbnail-image {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.text-container {
+  position: absolute;
+  bottom: 130px; }
+
+.thumbnail-text {
+  display: block;
+  color: white;
+  text-shadow: 0px 0px 5px #323232;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600; }
+
+.thumbnail-project {
+  display: block;
+  color: white;
+  text-shadow: 0px 0px 5px #323232;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500; }
+
+.thumbnail-tile {
+  margin-bottom: 30px; }
+  .thumbnail-tile a:hover {
+    background-color: transparent; }
 
 footer {
-  background-color: #f2f2f2;
-  color: #b5b5b5; }
+  background-color: #80FF55;
+  color: white; }
 
-.footerLeft {
+.footer-logo-container {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
+.footer-left {
   line-height: 45px; }
 
-.footerRight {
-  line-height: 45px; }
-
-div.medium-4.columns.footerRight {
+.footer-right {
+  line-height: 45px;
   text-align: right; }
 
-.footerCenter {
-  text-align: center;
-  line-height: 45px; }
+div.medium-4.columns.footer-right {
+  text-align: right; }
 
-.rehanLogo {
-  height: 18px; }
+.instagram-logo {
+  height: 35px; }
+  .instagram-logo:hover {
+    opacity: 0.8; }
 
-.twitterLogo {
-  height: 30px; }
+.twitter-logo {
+  height: 30px;
+  margin-right: 10px; }
+  .twitter-logo:hover {
+    opacity: 0.8; }
+
+.copyright {
+  font-weight: 500; }
 
 .site-footer {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 40px;
+  margin-top: 50px; }
 
 .noSelect {
   -webkit-touch-callout: none;
@@ -81,17 +189,16 @@ div.medium-4.columns.footerRight {
   -moz-user-select: none;
   -webkit-user-drag: none; }
 
+.columns:last-child:not(:first-child) {
+  float: left; }
+
 /*measurments pulled from foundation css file*/
 /*for mobile friendly styling*/
 @media screen and (max-width: 40em) {
   header {
     margin-bottom: 10px; }
 
-  footerLeft, div.medium-4.columns.footerRight, footer {
-    text-align: center; }
-
-  .footerCenter {
-    padding-top: 20px;
-    padding-bottom: 20px; } }
+  footerLeft, div.medium-4.columns.footer-right, footer {
+    text-align: center; } }
 /*for tablet friendly styling*/
 /* ************************************** */

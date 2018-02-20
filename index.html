@@ -1,20 +1,50 @@
 ---
 layout: default
+title: "/brand/ /līf/"
+blurb: "MISSION STATEMENT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum at sem eget faucibus. Aliquam rutrum et elit et condimentum. Mauris laoreet nisi ex, ac facilisis enim vulputate lacinia. Donec in ligula mattis, malesuada eros at, convallis elit."
 ---
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</span>
-      </li>
+<section class="row category" id="services">
+  <h1>What We Do</h1>
+  <div class="services">
+    {% for service in site.services %}
+    <div class="small-12 medium-6 columns service-container">
+        <a href="{{ service.url | prepend: site.baseurl }}"><p>{{service.title}}</p></a>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section class="row category" id="work">
+  <h1>Work</h1>
+  {% for work in site.work %}
+  <div class="small-12 medium-4 large-4 columns thumbnail-tile">
+      <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">
+          <div class="thumbnail-container">
+            <img class="thumbnail-image" src="img/thumbnails/{{ work.thumbnail | prepend: site.baseurl }}">
+            <div class="text-container">
+              <span class="thumbnail-project">{{ work.client }}</span>
+              <span class="thumbnail-text">{{ work.title }}</span>
+            </div>
+          </div>
+      </a>
+  </div>
+  {% endfor %}
+</section>
 
-</div>
+<section class="row category" id="us">
+  <h1>Us</h1>
+  <div class="small-12 medium-4 columns">
+    <img src="img/rehan.png" alt="Rehan">
+  </div>
+  <div class="small-12 medium-8 columns">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum at sem eget faucibus. Aliquam rutrum et elit et condimentum. Mauris laoreet nisi ex, ac facilisis enim vulputate lacinia. Donec in ligula mattis, malesuada eros at, convallis elit </p>
+  </div>
+</section>
+
+<section class="row category" id="chat">
+  <h1>Let's Chat</h1>
+  <div class="small-12 columns">
+    <p>Got a project in mind? We can't wait to learn about your business and vision! Give is a <a href="tel:555-555-5555">call</a>, drop us a <a href="mailto:something@something.com">note</a> or send a <a target="_blank" href="https://twitter.com/brnd_life">tweet</a> our way! </p>
+  </div>
+</section>

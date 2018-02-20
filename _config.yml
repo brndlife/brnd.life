@@ -15,3 +15,12 @@ url: "http://brnd.life" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+collections:
+  services:
+    output: true
+    permalink: services/:path
+    
+  work:
+    output: true
+    permalink: work/:path
