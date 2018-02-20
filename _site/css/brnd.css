@@ -6,6 +6,14 @@ html, body, h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 18px; }
 
+h1 {
+  font-weight: 700;
+  font-size: 60px; }
+
+p {
+  font-size: 30px;
+  line-height: 40px; }
+
 .post-list h2 {
   margin-bottom: 0rem; }
   .post-list h2 a {
@@ -31,7 +39,13 @@ body {
   position: none;
   min-height: none;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  margin-bottom: 50px; }
+  .site-header .global {
+    margin-bottom: 150px; }
+
+.header-buffer h1 {
+  margin-bottom: 30px; }
 
 .site-title {
   float: none; }
@@ -81,7 +95,8 @@ div.medium-4.columns.footer-right {
 
 .site-footer {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 50px; }
 
 .noSelect {
   -webkit-touch-callout: none;
