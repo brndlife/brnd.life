@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Project Olympus
+client: Project Olympus
 tagline: Building Great Startups
 thumbnail: olympus.png
 
