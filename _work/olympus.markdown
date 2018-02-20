@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  Brand Architecture
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+title:  Project Olympus
+tagline: Building Great Startups
+thumbnail: olympus.png
 
 ---
 

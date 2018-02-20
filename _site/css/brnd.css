@@ -79,6 +79,9 @@ a {
 .service-container {
   margin-bottom: 10px; }
 
+.category {
+  margin-bottom: 100px; }
+
 footer {
   background-color: #80FF55;
   color: white; }
