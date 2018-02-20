@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Visual Identity Design
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+
 
 ---
 

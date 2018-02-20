@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Brand Architecture
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
 
 ---
 

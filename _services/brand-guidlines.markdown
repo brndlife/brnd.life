@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Brand Guidlines
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+
 
 ---
 

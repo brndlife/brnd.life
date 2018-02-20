@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Naming
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+
 
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Brand Strategy & Positioning
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+
 
 ---
 

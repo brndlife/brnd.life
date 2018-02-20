@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Brand Voice
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Brand Audit & Research
+blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
 
 ---
 
