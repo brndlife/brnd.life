@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
 html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Zilla Slab", serif;
+  font-family: "Poppins", sans-serif;
   color: #666666; }
 
 body {
@@ -45,8 +45,8 @@ body {
     margin-right: 5px; }
 
 footer {
-  background-color: #f2f2f2;
-  color: #b5b5b5; }
+  background-color: #80FF55;
+  color: white; }
 
 .footerLeft {
   line-height: 45px; }
