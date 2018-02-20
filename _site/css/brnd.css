@@ -25,11 +25,13 @@ body {
   height: 120px; }
 
 .site-header {
+  background-color: #80FF55;
   border-top: none;
   border-bottom: none;
   position: none;
   min-height: none;
-  margin-top: 30px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .site-title {
   float: none; }
@@ -37,12 +39,14 @@ body {
 .nav-bar {
   float: none;
   line-height: 120px;
-  font-size: 30px; }
+  font-size: 32px;
+  font-weight: 700;
+  text-align: right; }
   .nav-bar a {
-    color: #666666; }
+    color: white; }
   .nav-bar .nav-item {
-    margin-left: 5px;
-    margin-right: 5px; }
+    margin-left: 10px;
+    margin-right: 10px; }
 
 footer {
   background-color: #80FF55;
