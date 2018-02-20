@@ -20,3 +20,7 @@ collections:
   services:
     output: true
     permalink: services/:path
+    
+  work:
+    output: true
+    permalink: work/:path
