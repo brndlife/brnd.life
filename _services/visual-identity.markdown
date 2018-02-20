@@ -1,25 +1,9 @@
 ---
 layout: post
 title:  Visual Identity Design
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+blurb: "Your brand’s visual identity is a complete system of marks, colors, typography, and visual elements that represent your unique look and feel. The logo is the single most important mark in your identity, so we give it a lot of attention to make sure it’s spot on."
 
 
 ---
 
-## TL;DR
-Branding Branding & Branding
-
-## What are we all about?
-
-## Who ~~are we~~ am I?
-
-We is where I would like to get to with your help.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll also offers powerful support for code snippets
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Content her to talk to what VID is
