@@ -2,19 +2,11 @@
 layout: default
 ---
 
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</span>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<h1>What We Do</h1>
+<div class="services">
+  {% for service in site.services %}
+  <div class="small-12 medium-6 columns service-container">
+      <a href="{{ service.url | prepend: site.baseurl }}"><p>{{service.title}}</p></a>
+  </div>
+  {% endfor %}
 </div>

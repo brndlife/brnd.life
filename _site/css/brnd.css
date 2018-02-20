@@ -8,7 +8,8 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 60px; }
+  font-size: 60px;
+  margin-bottom: 50px; }
 
 p {
   font-size: 30px;
@@ -47,9 +48,6 @@ p {
 .header-buffer h1 {
   margin-bottom: 30px; }
 
-.site-title {
-  float: none; }
-
 .nav-bar {
   float: none;
   line-height: 120px;
@@ -57,10 +55,31 @@ p {
   font-weight: 700;
   text-align: right; }
   .nav-bar a {
-    color: white; }
+    color: white;
+    text-decoration: none; }
+    .nav-bar a:hover {
+      text-decoration: underline;
+      color: white; }
   .nav-bar .nav-item {
     margin-left: 10px;
     margin-right: 10px; }
+
+a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #666666;
+  padding: 5px 5px 5px 5px; }
+  a:hover {
+    background-color: #80FF55;
+    text-decoration: none;
+    color: #666666; }
+  a:visited {
+    color: #666666; }
+  a p {
+    margin-bottom: 0; }
+
+.service-container {
+  margin-bottom: 10px; }
 
 footer {
   background-color: #80FF55;
@@ -74,7 +93,8 @@ footer {
   line-height: 45px; }
 
 .footer-right {
-  line-height: 45px; }
+  line-height: 45px;
+  text-align: right; }
 
 div.medium-4.columns.footer-right {
   text-align: right; }
@@ -107,6 +127,9 @@ div.medium-4.columns.footer-right {
   user-drag: none;
   -moz-user-select: none;
   -webkit-user-drag: none; }
+
+.columns:last-child:not(:first-child) {
+  float: left; }
 
 /*measurments pulled from foundation css file*/
 /*for mobile friendly styling*/

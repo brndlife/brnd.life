@@ -28,6 +28,7 @@ body{
 h1{
   font-weight: $bold;
   font-size: 60px;
+  margin-bottom: 50px;
 }
 
 p{
@@ -87,10 +88,6 @@ p{
   }
 }
 
-.site-title{
-  float: none;
-}
-
 .nav-bar{
   float: none;
   line-height: 120px;
@@ -99,6 +96,11 @@ p{
   text-align: right;
   a{
     color: white;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      color: white;
+    }
   }
   .nav-item{
     margin-left: 10px;
@@ -106,7 +108,29 @@ p{
   }
 }
 
+//Body
+a{
+  display: inline-block;
+  text-decoration: underline;
+//  border-bottom: 2px solid $brnd-grey;
+  color: $brnd-grey;
+  padding: 5px 5px 5px 5px;
+  &:hover{
+    background-color: $brnd-lime;
+    text-decoration: none;
+    color: $brnd-grey;
+  }
+  &:visited{
+    color: $brnd-grey;
+  }
+  p{
+    margin-bottom: 0;
+  }
+}
 
+.service-container{
+  margin-bottom: 10px;
+}
 
 // Footer
 footer{
@@ -125,6 +149,7 @@ footer{
 
 .footer-right{
   line-height: 45px;
+  text-align: right;
 }
 
 div.medium-4.columns.footer-right{
@@ -167,6 +192,12 @@ div.medium-4.columns.footer-right{
     -moz-user-select: none;
     -webkit-user-drag: none;
 }
+
+//Foundation Fix
+.columns:last-child:not(:first-child){
+  float: left;
+}
+
 
 /*measurments pulled from foundation css file*/
 
