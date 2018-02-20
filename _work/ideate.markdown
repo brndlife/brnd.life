@@ -1,8 +1,8 @@
 ---
 layout: post
-client: Project Olympus
+client: Ideate
 title: Building Great Startups
-thumbnail: olympus.png
+thumbnail: ideate.png
 
 ---
 

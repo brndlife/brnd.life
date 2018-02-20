@@ -1,8 +1,8 @@
 ---
 layout: post
-client: Project Olympus
+client: International Student Union
 title: Building Great Startups
-thumbnail: olympus.png
+thumbnail: isu.png
 
 ---
 

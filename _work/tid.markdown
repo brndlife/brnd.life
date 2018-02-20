@@ -1,8 +1,8 @@
 ---
 layout: post
-client: Project Olympus
+client: Tangible Interaction Design
 title: Building Great Startups
-thumbnail: olympus.png
+thumbnail: tid.png
 
 ---
 
