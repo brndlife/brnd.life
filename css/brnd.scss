@@ -176,6 +176,8 @@ a{
 .text-container{
   position: absolute;
   bottom: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .thumbnail-text {
@@ -256,7 +258,7 @@ div.medium-4.columns.footer-right{
 }
 
 // Master
-.noSelect{
+.no-select{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -285,7 +287,66 @@ div.medium-4.columns.footer-right{
   footerLeft, div.medium-4.columns.footer-right, footer{
     text-align: center;
   }
-
+  
+  .nav-bar{
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  
+  p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .site-title{
+    text-align: center;
+  }
+  
+  .nav-item{
+    text-align: center;
+  }
+  .site-header{
+    .global{
+      margin-bottom: 50px;
+    }
+  }
+  
+  section{
+    h1{
+      margin-left: 10px;
+    }
+  }
+  
+  .twitter-logo{
+    height: 25px;
+  }
+  
+  .instagram-logo{
+    height: 25px;
+  }
+  
+  .footer-left{
+    text-align: left;
+  }
+  
+  .footer-right{
+    line-height: 30px;
+  }
+  
+  .site-footer{
+    padding-bottom: 10px;
+  }
+  
+  .team-profile{
+    margin-bottom: 25px;
+  }
+  
 }
 
 /*for tablet friendly styling*/
