@@ -9,9 +9,10 @@ thumbnail: ideate.png
 <div class="image-container"><img src="../img/ideate/logo.svg" alt="Final Logo" class="image-center" style="width:60%; margin-top: 50px; margin-bottom: 100px;"/></div>
 
 <img src="../img/ideate/slide1.png" alt="The Idea" style="width:100%"> 
-<img src="../img/ideate/slide2.png" alt="The Icon" style="width:100%"><img src="../img/ideate/slide3.png" alt="The System" style="width:100%">
+<img src="../img/ideate/slide2.png" alt="The Icon" style="width:100%">
+<img src="../img/ideate/slide3.png" alt="The System" style="width:100%">
 <img src="../img/ideate/slide4.png" alt="Wordmark" style="width:100%">
-<img src="../img/ideate/slide5.png" alt="Logo" style="width:100%"> 
+<img src="../img/ideate/slide5.png" alt="Logo" style="width:100%">
 <img src="../img/ideate/slide6.png" alt="System Intro" style="width:100%">
 <img src="../img/ideate/slide7.png" alt="Subbrands part 1" style="width:100%">
 <img src="../img/ideate/slide8.png" alt="subbrands part 2" style="width:100%">
