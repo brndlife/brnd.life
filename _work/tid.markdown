@@ -12,23 +12,6 @@ In 2016 the Masters of Tangible Interaction Design (MTID) program came back to C
 
 <div class="image-container"><img src="../img/tid/logo2.png" alt="Final Logo + Context"/></div>
 
-
-## Process
-
-<div class="image-container"><img src="../img/tid/sketches.png" alt="Branding Sketches"/></div>
-<div class="image-container"><img src="../img/tid/sketches2.png" alt="Branding Sketches"/></div>
-<div class="image-container"><img src="../img/tid/brandInspiration.png" alt="Branding Inspiration"/></div>
-
-<div class="row" style="padding:0px; margin:0px;">
-  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate1.gif" alt="Animation Inspiration"/></div>
-  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate2.gif" alt="Animation Inspiration"/></div>
-  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate4.gif" alt="Animation Inspiration"/></div>
-  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate3.gif" alt="Animation Inspiration"/></div>
-</div>
-<div class="image-container" style="margin-top:50px;"><img src="../img/tid/logoIterations.svg" alt="Logo Iterations"/></div>
-
-Several logo iterations looking at shape, scale, placement, weight and intensity of the graphic.
-
 <div class="image-container" style="margin-top:50px;"><img src="../img/tid/posterIterations1.png" alt="Poster Iterations"/></div>
 <div class="image-container"><img src="../img/tid/posterIterations2.png" alt="Poster Iterations"/></div>
 <div class="image-container"><img src="../img/tid/posterIterations3.png" alt="Poster Iterations"/></div>
