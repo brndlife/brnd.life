@@ -20,8 +20,6 @@ thumbnail: ideate.png
 <img src="../img/ideate/slide11.png" alt="Business Cards" style="width:100%">
 <img src="../img/ideate/slide12.png" alt="Wall Sign" style="width:100%">
 
-"ideate should be weird, strange, quirky and dynamic"
-
 <div class="image-container"><img src="../img/ideate/usage.png" alt="Brand Usage"/></div>
 
 We made some t-shirts and stickers to celebrate!
