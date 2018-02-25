@@ -24,6 +24,10 @@ p {
   background-color: rgba(128, 255, 85, 0.5);
   color: #666666; }
 
+.image-center {
+  margin: 0 auto;
+  display: block; }
+
 .post-link {
   font-size: 30px; }
 
