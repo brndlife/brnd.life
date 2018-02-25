@@ -1,7 +1,7 @@
 ---
 layout: post
 client: Tangible Interaction Design
-title: Building Great Startups
+title: Showcasing Beautiful Work
 thumbnail: tid.png
 
 ---
