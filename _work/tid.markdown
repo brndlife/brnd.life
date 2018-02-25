@@ -6,20 +6,30 @@ thumbnail: tid.png
 
 ---
 
-## TL;DR
-Branding Branding & Branding
+<div class="image-container"><img src="../img/tid/logo.png" alt="Final Logo" class="image-center" style="width:60%"/></div>
 
-## What are we all about?
+This past year the Masters of Tangible Interaction Design (MTID) program came back to Carnegie Mellon University. I was accepted into the Masters program with its reintroduction and I took it upon myself to brand the program and give it a platform to speak from. My goal was to showcase the different types of projects that the MTID students are working on, from installation pieces to virtual reality pieces and many projects in between. I also wanted to create a brand system that could be adapted for all types of media: print (static), web (static or animated), and interactive. I chose to express the diversity of projects through imagery of the work along with several shapes exploring different moods while maintaining the overall image through the consistent use of the ‘TiD’ logo. 
 
-## Who ~~are we~~ am I?
+<div class="image-container"><img src="../img/tid/logo2.png" alt="Final Logo + Context"/></div>
 
-We is where I would like to get to with your help.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Process
 
-Jekyll also offers powerful support for code snippets
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<div class="image-container"><img src="../img/tid/sketches.png" alt="Branding Sketches"/></div>
+<div class="image-container"><img src="../img/tid/sketches2.png" alt="Branding Sketches"/></div>
+<div class="image-container"><img src="../img/tid/brandInspiration.png" alt="Branding Inspiration"/></div>
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="row" style="padding:0px; margin:0px;">
+  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate1.gif" alt="Animation Inspiration"/></div>
+  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate2.gif" alt="Animation Inspiration"/></div>
+  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate4.gif" alt="Animation Inspiration"/></div>
+  <div class="image-container small-6 medium-3 column" style="padding:0px; margin:0px;"><img src="../img/tid/animate3.gif" alt="Animation Inspiration"/></div>
+</div>
+<div class="image-container" style="margin-top:50px;"><img src="../img/tid/logoIterations.svg" alt="Logo Iterations"/></div>
+
+Several logo iterations looking at shape, scale, placement, weight and intensity of the graphic.
+
+<div class="image-container" style="margin-top:50px;"><img src="../img/tid/posterIterations1.png" alt="Poster Iterations"/></div>
+<div class="image-container"><img src="../img/tid/posterIterations2.png" alt="Poster Iterations"/></div>
+<div class="image-container"><img src="../img/tid/posterIterations3.png" alt="Poster Iterations"/></div>
+<div class="image-container"><img src="../img/tid/posterIterations4.png" alt="Poster Iterations"/></div>
