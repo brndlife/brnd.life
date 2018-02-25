@@ -6,20 +6,14 @@ thumbnail: isu.png
 
 ---
 
-## TL;DR
-Branding Branding & Branding
+<div class="image-container"><img src="../img/isu/ISUlogo.svg" alt="ISU Logo" class="image-center" style="width:60%" /></div>
 
-## What are we all about?
+<div class="image-container"><img src="../img/isu/ISUwebsite.png" alt="ISU Website" /></div>
 
-## Who ~~are we~~ am I?
+<div data-configid="15751362/51271555" style="width:100%; height:700px;" class="issuuembed"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 
-We is where I would like to get to with your help.
+<div class="image-container">
+<img src="../img/isu/ISUposter.png" alt="Poster Design" class="image-center" style="width:40%" /></div>
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll also offers powerful support for code snippets
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Using this new brand image we created a poster for one of the events.
