@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  Brand Guidlines
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
-
+blurb: "Compiling all the rules and standards around your brand. Capturing all your visual and verbal assets while demonstrating how to use them. This ensures that your unique look and feel remain consistent wherever your brand takes you. "
 
 ---
 
