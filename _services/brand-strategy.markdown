@@ -6,5 +6,5 @@ blurb: "Based on our audit, we can guide you towards your ideal brand. Helping y
 
 ---
 
-## TL;DR
-Branding Branding & Branding
+<div class="image-container"><img src="../img/olympus/logo.svg" alt="Olympus Logo"/></div>
+<div class="image-container"><img src="../img/olympus/envolope.png" alt="Olympus 10th Anniversary Party Invite"/></div>
