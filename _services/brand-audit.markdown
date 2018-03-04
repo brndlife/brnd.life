@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Brand Audit & Research
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+blurb: "We analyze the current state of affairs. How your brand is perceived by your employees and customers. The values people associate both functionally and emotionally."
 
 ---
 
