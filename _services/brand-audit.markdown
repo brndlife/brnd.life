@@ -1,24 +1,11 @@
 ---
 layout: post
 title:  Brand Audit & Research
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+blurb: "We analyze the current state of affairs. How your brand is perceived by your employees and customers. The values people associate both functionally and emotionally."
 
 ---
 
-## TL;DR
-Branding Branding & Branding
-
-## What are we all about?
-
-## Who ~~are we~~ am I?
-
-We is where I would like to get to with your help.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll also offers powerful support for code snippets
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="image-container"><img src="../img/expii/ontheweb.png" alt="Expii Brand Across The Web"/></div>
+<div class="image-container"><img src="../img/expii/brands.png" alt="Expii Brand Colors"/></div>
+<div class="image-container"><img src="../img/expii/brands2.png" alt="Expii Brand Voice and Language"/></div>
+<div class="image-container"><img src="../img/expii/platforms.png" alt="Expii Brand Across Platforms"/></div>

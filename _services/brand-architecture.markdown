@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Brand Architecture
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
+blurb: "When launching a new sub-brand or taking on a new entity, it can be difficult expressing one clear system. We can help evaluate each brand and organize it best for the public."
 
 ---
 
