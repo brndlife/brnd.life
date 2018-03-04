@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  Brand Voice
-blurb: "skfjklsdf sdkfjskljf sldfjklsdfj"
-
+blurb: "Having the right language to go with your brand is critical. Whether casual or formal it carries your brand beyond the image. We help create your unique tone."
 
 ---
 
