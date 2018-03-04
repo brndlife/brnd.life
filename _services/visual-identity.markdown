@@ -6,4 +6,5 @@ blurb: "Your brand's visual identity is composed of marks, colors, typography an
 
 ---
 
-Content here to talk to what VID is
+<div class="image-container"><img src="../img/tid/logo.png" alt="Final Logo" class="image-center" style="width:60%"/></div>
+<div class="image-container"><img src="../img/tid/logo2.png" alt="Final Logo + Context"/></div>
