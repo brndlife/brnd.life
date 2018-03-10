@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/brnd.css">
+  
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="BRND Life" href="http://localhost:4000/feed.xml">
 </head>
@@ -163,7 +164,7 @@
 <section class="row category" id="chat">
   <h1>Let's Chat</h1>
   <div class="small-12 columns">
-    <p>Got a project in mind? We can't wait to learn about your business and vision! Give is a <a href="tel:555-555-5555">call</a>, drop us a <a href="mailto:something@something.com">note</a> or send a <a target="_blank" href="https://twitter.com/brnd_life">tweet</a> our way! </p>
+    <p>Got a project in mind? We can't wait to learn about your business and vision! Give is a <span data-tooltip class="has-tip tip-top" tabindex="1" title="+1 555 555 5555"><a href="tel:555-555-5555">call</a></span>, drop us a <span data-tooltip class="has-tip tip-top" tabindex="1" title="something@something.com"><a href="mailto:something@something.com">note</a></span> or send a <span data-tooltip class="has-tip tip-top" tabindex="1" title="@brnd_life"><a target="_blank" href="https://twitter.com/brnd_life">tweet</a></span> our way! </p>
   </div>
 </section>
       </div>
@@ -188,6 +189,17 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.js"></script>
+<script>
+  // Initialize a new Tooltip with extended functionality for all current elements with the class of has-tip
+  $(".has-tip").each(function(i,e) {
+    new Foundation.Tooltip($(e), {
+      allowHtml: true
+    }); // close tooltip
+  }); // close each
+
+  $(document).foundation();
+</script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links

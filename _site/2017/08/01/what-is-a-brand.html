@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/brnd.css">
+  
   <link rel="canonical" href="http://localhost:4000/2017/08/01/what-is-a-brand.html">
   <link rel="alternate" type="application/rss+xml" title="BRND Life" href="http://localhost:4000/feed.xml">
 </head>
@@ -100,6 +101,17 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.js"></script>
+<script>
+  // Initialize a new Tooltip with extended functionality for all current elements with the class of has-tip
+  $(".has-tip").each(function(i,e) {
+    new Foundation.Tooltip($(e), {
+      allowHtml: true
+    }); // close tooltip
+  }); // close each
+
+  $(document).foundation();
+</script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
